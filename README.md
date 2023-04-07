@@ -7,20 +7,125 @@
 ## 포트폴리오 자동 작성 서비스
 
 ### 프로젝트명 : 폴라로이드(Folaroid)
->
-> 포트폴리오 자동 디자인 서비스.
->
-> 깃헙 프로젝트에 양식에 맞게 readme 파일을 작성하고 공유하면 해당 파일을 크롤링하여 데이터를 저장하고 해당 데이터를 기반으로 개인별 포트폴리오 사이트를 제작
->
-> WebGL로 구현된 캐릭터가 타인의 포트폴리오를 볼 수 있는 서비스 및 다양한 서브 기능들을 인터렉티브 웹 기술 활용하여 다양한 디자인으로 제공
 
-### 기술 활용 기획
-- 백엔드 : Spring, Java, MySQL, python
-- 프론트엔드 : React, Three.js
+### 아래 홈페이지의 주요 사진들입니다.
 
-### 담당파트
-- 백엔드 : 김지훈, 박종선, 이창현
-- 프론트엔드 : 김용환, 김미애, 정예원
+<details>
+
+### 메인 페이지 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230622591-3a16395c-02a3-4019-8ccc-9f9cb340b7bb.png)
+
+- 로그인 버튼을 누르면 GITHUB 아이디로 로그인을 진행합니다.
+
+### 마이페이지 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230622520-5433fdfb-f235-45e1-8154-f89ccac97477.png)
+
+- 로그인 후 마이페이지를 클릭하면 나오는 화면입니다.
+- 내 프로필에 연필 모양을 누르면 자기소개 정보를 입력할 수가 있습니다.
+
+### 자기소개 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230623293-7cb5db93-6cdc-46c6-93e9-f391bf8acd1c.png)
+
+- 자기소개 사항과 추가사항을들 입력할 수가 있습니다.
+
+#### 자기소개 화면 - 개인정보 입력 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230623627-327f5777-ecbb-437d-a46e-2023d8cbd1ef.png)
+
+- 개인정보를 입력하고 저장 버튼을 누르면 저장됩니다.
+
+#### 자기소개 화면 - 개인정보가 입력된 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230623774-43b8a62c-f4ba-46f9-b456-4e394069ad47.png)
+
+- 개인정보를 입력하고 프로필 사진을 넣은 개인정보 화면입니다.
+
+#### 자기소개 화면 - 추가사항 입력 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230629656-96af264f-2845-448c-a04e-863269d66423.png)
+
+- 개인정보를 추가사항을 입력하는 화면입니다.
+
+### 자기소개 입력 후 마이페이지 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230634759-00b4ad0d-8c9e-4caa-9d9f-72ffd6411c64.png)
+
+- 포트폴리오를 만들기 위해 포트폴리오 만들기를 클릭합니다.
+
+### 포트폴리오 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230639422-455521e1-07cd-49e1-85fd-9939dcfd51ec.png)
+
+- 포트폴리오 만들기 화면으로 들어오면 자기소개 입력한 내역들이 있습니다.
+- 포트폴리오에 들어갈 프로젝트를 만들기 위해 프로젝트를 클릭합니다.
+
+### 프로젝트 생성 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230639741-319aa426-6ab6-4705-9782-5e9b48f4179b.png)
+
+- ( + ) 박스를 클릭하여 프로젝트 생성에 들어갑니다.
+
+### 프로젝트 선택 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230644076-4dae5c52-31df-4853-ab9d-f5b430887350.png)
+
+
+- 프로젝트 선택 화면에서 포트폴리오에 사용할 프로젝트를 선택하고 확인을 누른다
+
+### 프로젝트 제작 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230644168-dc98bbb5-3a5d-4806-b248-d2a128df6829.png)
+
+- 프로젝트를 Add page를 눌러 빈 화면을 출력하고 프로젝트를 꾸밀 수 있습니다.
+
+- 대표사진을 선택할 수 있고 프로젝트 명과 프로젝트 설명을 작성할 수 있습니다.
+
+#### 프로젝트 제작 화면 - 텍스트
+
+![image](https://user-images.githubusercontent.com/116571873/230644302-ab80ffb7-1e46-4c42-b1d3-69a88084d8e4.png)
+
+- 리드미에서 가져온 텍스트들을 클립보드에 복사하여 넣을 수 있습니다.
+
+#### 프로젝트 제작 화면 - 이미지
+
+![image](https://user-images.githubusercontent.com/116571873/230644385-29b8d530-5083-45df-b1f2-361eb57c9a97.png)
+
+- 리드미에서 가져온 이미지들을 선택하여 화면에 넣을 수 있습니다.
+
+- 프로젝트가 완성되면 Save&Exit를 클릭하여 저장 후 포트폴리오 메인 화면으로 나갈 수 있습니다.
+
+### 포트폴리오 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230644821-585cea48-348d-42a5-94db-ad164287b27f.png)
+
+- 포트폴리오 화면으로 나오면 프로젝트가 제작된 것을 확인할 수가 있습니다.
+
+- 템플릿을 클릭하여 템플릿을 선택할 수 있는 화면으로 넘어갑니다.
+
+### 템플릿 선택 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230654020-9c28b69d-5e2c-4535-aa07-08484abe7462.png)
+
+- 다양한 템플릿 중 원하는 템플릿을 선택하여 저장 버튼을 누릅니다.
+
+### 포트폴리오 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230654154-3fea79a6-09b1-44ee-99db-4a0ac1756df0.png)
+
+- 포트폴리오 화면으로 제작한 프로젝트들을 확인할 수 있습니다.
+
+### 프로젝트 상세 화면
+
+![image](https://user-images.githubusercontent.com/116571873/230654235-fa72dc82-cf3f-4c91-b0be-8ab29b77b264.png)
+
+- 프로젝트를 클릭하면 작성한 프로젝트를 확인할 수가 있습니다.
+
+
+
+</details>
 
 
 
